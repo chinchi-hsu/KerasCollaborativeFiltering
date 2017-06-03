@@ -12,6 +12,9 @@ For real-valued ratings, Matrix Factorization (MF) may be the most popular colla
 However, if we can access only implicit feedbacks (also named one-class collaborative filtering; that is, we can observe a user saw an item, but cannot understand the rating opinion about the item), the traditional MF fails to recommend items.
 BPR framework provides an extension of MF to tackle the one-class collaborative filtering.
 
+Keras is a well-known Python library to build deep neural networks (or multi-layer perceptron), but it could implement other machine learning models optimized by stochastic gradient descent (SGD).
+I try to build MF and BPR-MF using Keras to call its well-implemented buiit-in functions like Adam and early stopping.
+
 ## Running
 
 ```
