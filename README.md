@@ -31,8 +31,8 @@ user_id item_id rating
 
 ## Output Files
 
-* [rating_file].user_embedding: factorized matrix about user latent factors (i.e. embeddings).
-* [rating_file].item_embedding: factorized matrix about item latent factors (i.e. embeddings).
+* **[rating_file].user_embedding**: factorized matrix about user latent factors (i.e. embeddings).
+* **[rating_file].item_embedding**: factorized matrix about item latent factors (i.e. embeddings).
 
 ## References
 
