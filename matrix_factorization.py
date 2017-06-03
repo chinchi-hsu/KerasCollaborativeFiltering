@@ -209,8 +209,6 @@ def main():
 
     print("Read files");
     # ratingMatrix is an adjacency list with each row (user, item, rating)
-    # User indices should be in [0, userCount)
-    # Item indices should be in [0, itemCount)
     dataProcessor = DataProcessor();
     ratingMatrix = dataProcessor.readRatings(ratingFilePath);
     
